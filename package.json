@@ -1,0 +1,29 @@
+{
+  "name": "auoh-fanuc-http-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mqtt": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhanasoini/AUOH-robot-cloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juhanasoini/AUOH-robot-cloud/issues"
+  },
+  "homepage": "https://github.com/juhanasoini/AUOH-robot-cloud#readme"
+}
